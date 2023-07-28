@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner {
+  margin-top: 25px;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+  .inner {
+    padding: 0 20px;
+  }
+}
