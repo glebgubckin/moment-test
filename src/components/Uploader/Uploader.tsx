@@ -79,6 +79,9 @@ const Uploader: FC = () => {
             </button>
           </div>
         ))}
+        {files.length < maxFiles && (
+          <p className={styles.add}>Загрузить файлы</p>
+        )}
       </div>
       <input
         type="file"
